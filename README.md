@@ -8,16 +8,13 @@ You might need to enter this command on your Raspberry Pi:
 Consider putting it in `/etc/rc.local` so it's executed each bootup
 
 ## Installation
-cd Downloads/
-
-git clone https://github.com/everylumi/PyMLX90614.git
-
-cd PyMLX90614/
-
-sudo python3 setup.py install #Python3
-
+```
+cd Downloads/  
+git clone https://github.com/everylumi/PyMLX90614.git  
+cd PyMLX90614/  
+sudo python3 setup.py install #Python3  
 sudo python setup.py install #Python2
-
+```
 
 ## Usage
 
@@ -44,8 +41,8 @@ from mlx90614 import MLX90614
 
 bus = SMBus(1)
 sensor = MLX90614(bus, address=0x5A)
-print sensor.get_amb_temp()
-print sensor.get_obj_temp()
+print(sensor.get_amb_temp())
+print(sensor.get_obj_temp())
 bus.close()
 ```
 
