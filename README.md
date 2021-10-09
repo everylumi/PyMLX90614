@@ -7,8 +7,9 @@ You might need to enter this command on your Raspberry Pi:
 
 Consider putting it in `/etc/rc.local` so it's executed each bootup
 
+
 ## Installation
-```
+```sh
 cd Downloads/  
 git clone https://github.com/everylumi/PyMLX90614.git  
 cd PyMLX90614/  
