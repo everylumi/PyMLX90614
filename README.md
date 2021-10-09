@@ -9,10 +9,15 @@ Consider putting it in `/etc/rc.local` so it's executed each bootup
 
 ## Installation
 cd Downloads/
+
 git clone https://github.com/everylumi/PyMLX90614.git
+
 cd PyMLX90614/
+
 sudo python3 setup.py install #Python3
+
 sudo python setup.py install #Python2
+
 
 ## Usage
 
