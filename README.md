@@ -10,12 +10,20 @@ Consider putting it in `/etc/rc.local` so it's executed each bootup
 
 ## Installation
 ```sh
-cd Downloads/  
+cd Downloads/  && sudo rm -rf PyMLX90614
 git clone https://github.com/everylumi/PyMLX90614.git  
 cd PyMLX90614/  
 sudo python3 setup.py install #Python3  
 sudo python setup.py install #Python2
 ```
+
+
+## Uninstallation
+```sh
+sudo pip3 uninstall PyMLX90614  #Python3  
+sudo pip uninstall PyMLX90614   #Python2
+```
+
 
 ## Usage
 
