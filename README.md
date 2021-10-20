@@ -14,7 +14,7 @@ cd Downloads/  && sudo rm -rf PyMLX90614
 git clone https://github.com/everylumi/PyMLX90614.git  
 cd PyMLX90614/  
 sudo python3 setup.py install #Python3  
-sudo python setup.py install #Python2
+sudo python setup.py install  #Python2
 ```
 
 
